@@ -26,6 +26,3 @@ if response.status_code == 200:
     print(f"💨 سرعت باد: {wind} m/s")
 else:
     print("❌ شهر مورد نظر پیدا نشد یا خطایی رخ داده است.")
-print(Fore.CYAN + f"🌡 دما: {temp}°C")
-print(Fore.YELLOW + f"☁️ وضعیت: {weather}")
-print(Fore.BLUE + f"💧 رطوبت: {humidity}%")
